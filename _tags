@@ -1,0 +1,10 @@
+# OASIS_START
+# DO NOT EDIT (digest: b018cecc6ff16a12ec19bc4706ad8db1)
+# Executable test
+<test.{native,byte}>: pkg_unix
+<test.{native,byte}>: pkg_bench
+<test.{native,byte}>: pkg_batteries
+<*.ml{,i}>: pkg_unix
+<*.ml{,i}>: pkg_bench
+<*.ml{,i}>: pkg_batteries
+# OASIS_STOP

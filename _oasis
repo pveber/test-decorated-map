@@ -1,0 +1,14 @@
+OASISFormat: 0.2
+Name:        test-map
+Version:     1.0
+Synopsis:    A test on map
+Authors:     Me
+License:     GPL-3.0
+Plugins:     DevFiles (0.2)
+
+Executable test
+  Path:       .
+  BuildTools: ocamlbuild
+  MainIs:     test.ml
+  BuildDepends: unix, batteries, bench  
+  CompiledObject: best
